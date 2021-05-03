@@ -13,10 +13,10 @@ Also, we feel really thanksful for those who provide third-party open sources so
 * An Overview of Program Structure in Github
 * Env Setup 
 * Nao Robot Operating System for HRI Design
-* NAOqi Python SDK 
-* Clarifai Python API for Food Recognition
+* [NAOqi Python SDK](http://doc.aldebaran.com/2-8/dev/python/install_guide.html#python-install-guide)
+* [Clarifai Python API for Food Recognition](https://github.com/Clarifai/clarifai-python)
 * Food Calorie Predictor by using Web Crawler
-* Online AI Modeling Resources for Face Prediction 
+* [Online AI Modeling Resources for Face Prediction](https://towardsdatascience.com/real-time-age-gender-and-emotion-prediction-from-webcam-with-keras-and-opencv-bde6220d60a)
 
 ## An Overview of Program Structure in Github
 Overall, there are few files that we need to look at. We will illustrate the min detail in the following sections.
@@ -44,3 +44,49 @@ Main Program for integrating submodules, list below
 * analyzer.py
 ```
 Main Program for reporting time stamps during HRI interaction and save them
+```
+
+## Env Setup
+1. PC Operating System：Mac Pro
+2. Python 2.7 & Python 3.6
+```
+Python 2.7 : NAOqi Python SDK 
+
+Python 3.6： pip install -r requirements.txt
+```
+
+## Nao Robot Operating System for HRI Design
+* project_CRG / Nao_Advance.crg
+
+We can refer to the interaction logic in the follwoing path. Theoretically, the NAO will start the interaction process with humans by following the procedures shown in 'logic_timeStamp.jpeg'. 
+
+* data_ref / logic_timeStamp / logic_timeStamp.jpeg
+
+
+Particulartly, the file  analyzer.py will note some time stamps and save them as data for our further analysis.
+
+
+## NAOqi Python SDK
+```
+Save image from NAO to local computer
+```
+With the help of NAOqi Python SDK, we are able to better make our computer to getData, insertData, and RemoveData from NAO robot. 
+- dev_file / videoInput_getImage.py
+
+    * This file is to get the image from the Nao camrea, then save the image to the local computer for food recognition or face prediction based on the needs.
+
+## Clarifai Python API for Food Recognition
+```
+Food recognition based on the image
+```
+* food.py (first part)
+
+    * Call Clarifai Python API for AI training based on the food image, the output would be the list of possible ingredients of the food.
+
+## Food Calorie Predictor by using Web Crawler
+```
+Calculation of food calorie based on food recognition
+```
+* food.py (last part)
+
+    * Next, we calculate the total calorie of food by  web crawling the calorie of each food ingredients.
