@@ -19,7 +19,7 @@ Also, we feel really thanksful for those who provide third-party open sources so
 * [Online AI Modeling Resources for Face Prediction](https://towardsdatascience.com/real-time-age-gender-and-emotion-prediction-from-webcam-with-keras-and-opencv-bde6220d60a)
 
 ## An Overview of Program Structure in Github
-Overall, there are few files that we need to look at. We will illustrate the min detail in the following sections.
+Overall, there are few files that we need to look at. We will illustrate the more details in the following sections.
 
 * project_CRG / Nao_Advance.crg
 ```
