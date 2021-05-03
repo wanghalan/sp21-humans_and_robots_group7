@@ -1,4 +1,27 @@
 # sp_21_nao
+## Declaration
+Group 7
+Team Members: Chang Feng-Yi, Ma, Jiachen, Wang Alan
+
+Our project is about the construction of food serving robot, and more details related to the motivation and experimental design and analysis method could be found in our report. 
+
+Here, we will focus on going through the navigation of the operation. This is the final version for the design of our robotic system based on the NAO robot. 
+
+
+Also, we feel really thanksful for those who provide third-party open sources so that we can refer to some client APIs or SDKs for better completing the functional system in our project. We will mention them in the process of the description.
+
+## Outline
+* An Overview of Program Structure in Github
+* Env Setup 
+* Nao Robot Operating System for HRI Design
+* NAOqi Python SDK 
+* Clarifai Python API for Food Recognition
+* Food Calorie Predictor by using Web Crawler
+* Online AL Modeling Resources for Face Prediction 
+
+## An Overview of Program Structure in Github
+
+
 
 Currently, there are two files that we need to look at.
 
