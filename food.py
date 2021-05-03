@@ -32,7 +32,7 @@ def get_food_results(path, local_file=True):
 # can check https://www.clarifai.com/models/ai-food-recognition
     results = ' '
     # This is how you authenticate.
-    metadata = (('authorization', 'Key db68ee11aff24aed97a23c679e0d5046'),)
+    metadata = (('authorization', 'Key keyname'),)
 
     if local_file:
         with open(path, "rb") as f:

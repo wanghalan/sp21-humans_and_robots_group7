@@ -23,7 +23,7 @@ def get_food_results(path, local_file=True):
 ################ clarifai API
 # can check https://www.clarifai.com/models/ai-food-recognition
     results = ' '
-    app = ClarifaiApp(api_key='db68ee11aff24aed97a23c679e0d5046')
+    app = ClarifaiApp(api_key='keyname')
     model = app.models.get('food-items-v1.0')
     if local_file:
         response = model.predict_by_filename(path)
@@ -73,7 +73,7 @@ def get_food_results(path, local_file=True):
                 item = soup.find("div", {"class": "Z0LcW"}).text.split(' ')[0]
             
             print(foods_name)   
-            print("熱量: " + str(item) + " kcal")
+            print("calorie: " + str(item) + " kcal")
             food_calorie = food_calorie + foods_name + ' ' + str(item) + ' kcal \n'
             total_calories = total_calories + float(item)
 #####################################################################################################

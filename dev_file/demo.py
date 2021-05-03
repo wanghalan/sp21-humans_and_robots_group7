@@ -8,7 +8,7 @@ from clarifai_grpc.grpc.api import service_pb2, resources_pb2
 from clarifai_grpc.grpc.api.status import status_code_pb2
 
 # This is how you authenticate.
-metadata = (('authorization', 'Key db68ee11aff24aed97a23c679e0d5046'),)
+metadata = (('authorization', 'Key keyname'),)
 
 with open("./img/camImage.png", "rb") as f:
     file_bytes = f.read()
