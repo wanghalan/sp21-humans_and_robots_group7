@@ -1,6 +1,6 @@
 ## Declaration
 Group 7
-Team Members: Chang Feng-Yi (fc4wa), Ma, Jiachen (jm7gz), Wang Alan (ahw9f)
+Team Members: Chang Feng-Yi, Ma, Jiachen, Wang Alan
 
 Our project is about the construction of food serving robot, and more details related to the motivation, experimental design and analysis method could be found in our report. 
 
@@ -19,7 +19,7 @@ Also, we feel really thanksful for those who provide third-party open sources so
 * [Online AI Modeling Resources for Face Prediction](https://towardsdatascience.com/real-time-age-gender-and-emotion-prediction-from-webcam-with-keras-and-opencv-bde6220d60a)
 
 ## An Overview of Program Structure in Github
-Overall, there are few files that we need to look at. We will illustrate the more details in the following sections.
+Overall, there are few files that we need to look at. We will illustrate the min detail in the following sections.
 
 * project_CRG / Nao_Advance.crg
 ```
@@ -44,6 +44,10 @@ Main Program for integrating submodules, list below
 * analyzer.py
 ```
 Main Program for reporting time stamps during HRI interaction and save them
+```
+* data_ref / final_analysis.ipynb
+```
+Analysis method implementation based on experimental raw data (analyzer.py).
 ```
 
 ## Env Setup
@@ -104,3 +108,4 @@ Obtain gender, age, and emotion of a person based on facial recognition
     * face_prediction.py 
 
         * This program will get the image of person based on NAO cameara. Then feed the image into face AI traning model with the help of modeling open sources dataset. As the result, the output would be gender, age, and emotion of a person based on the facial image.
+
