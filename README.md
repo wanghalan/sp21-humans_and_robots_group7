@@ -109,3 +109,4 @@ Obtain gender, age, and emotion of a person based on facial recognition
 
         * This program will get the image of person based on NAO cameara. Then feed the image into face AI traning model with the help of modeling open sources dataset. As the result, the output would be gender, age, and emotion of a person based on the facial image.
 
+        * The pre-trained models can be downloaded from [here](https://drive.google.com/file/d/1NvushEV_jqOcjT2zDv0CmUX-XJXJ7Epy/view)
