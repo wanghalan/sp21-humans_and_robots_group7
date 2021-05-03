@@ -71,22 +71,36 @@ Particulartly, the file  analyzer.py will note some time stamps and save them as
 Save image from NAO to local computer
 ```
 With the help of NAOqi Python SDK, we are able to better make our computer to getData, insertData, and RemoveData from NAO robot. 
-- dev_file / videoInput_getImage.py
-
-    * This file is to get the image from the Nao camrea, then save the image to the local computer for food recognition or face prediction based on the needs.
+* nao_advance_serve.py
+    * dev_file / videoInput_getImage.py
+    
+        * This file is to get the image from the Nao camrea, then save the image to the local computer for food recognition or face prediction based on the needs.
 
 ## Clarifai Python API for Food Recognition
 ```
 Food recognition based on the image
 ```
-* food.py (first part)
+* nao_advance_serve.py
+    * food.py (first part)
 
-    * Call Clarifai Python API for AI training based on the food image, the output would be the list of possible ingredients of the food.
+        * Call Clarifai Python API for AI training based on the food image, the output would be the list of possible ingredients of the food.
 
 ## Food Calorie Predictor by using Web Crawler
 ```
 Calculation of food calorie based on food recognition
 ```
-* food.py (last part)
+* nao_advance_serve.py
+    * food.py (last part)
 
-    * Next, we calculate the total calorie of food by  web crawling the calorie of each food ingredients.
+        * Next, we calculate the total calorie of food by  web crawling the calorie of each food ingredients.
+
+
+## Online AI Modeling Resources for Face Prediction
+```
+Obtain gender, age, and emotion of a person based on facial recognition
+```
+* nao_advance_serve.py
+
+    * face_prediction.py 
+
+        * This program will get the image of person based on NAO cameara. Then feed the image into face AI traning model with the help of modeling open sources dataset. As the result, the output would be gender, age, and emotion of a person based on the facial image.
