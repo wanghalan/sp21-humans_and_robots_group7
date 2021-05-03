@@ -1,14 +1,13 @@
-# sp_21_nao
 ## Declaration
 Group 7
 Team Members: Chang Feng-Yi, Ma, Jiachen, Wang Alan
 
-Our project is about the construction of food serving robot, and more details related to the motivation and experimental design and analysis method could be found in our report. 
+Our project is about the construction of food serving robot, and more details related to the motivation, experimental design and analysis method could be found in our report. 
 
 Here, we will focus on going through the navigation of the operation. This is the final version for the design of our robotic system based on the NAO robot. 
 
 
-Also, we feel really thanksful for those who provide third-party open sources so that we can refer to some client APIs or SDKs for better completing the functional system in our project. We will mention them in the process of the description.
+Also, we feel really thanksful for those who provide third-party open sources so that we can refer to some client APIs or SDKs for better completing the functional system in our project. We will mention and credit them in the process of the description.
 
 ## Outline
 * An Overview of Program Structure in Github
@@ -17,19 +16,31 @@ Also, we feel really thanksful for those who provide third-party open sources so
 * NAOqi Python SDK 
 * Clarifai Python API for Food Recognition
 * Food Calorie Predictor by using Web Crawler
-* Online AL Modeling Resources for Face Prediction 
+* Online AI Modeling Resources for Face Prediction 
 
 ## An Overview of Program Structure in Github
+Overall, there are few files that we need to look at. We will illustrate the min detail in the following sections.
 
+* project_CRG / Nao_Advance.crg
+```
+Nao Robot Operating System for HRI Design
+```
+* nao_advance_serve.py 
+    
+    *  dev_file / videoInput_getImage.py (submodule 1)
+    *  food.py (submodule 2 & 3)
+    *  face_prediction.py (submodule 4)
+```
+Main Program for integrating submodules, list below
 
+1. NAOqi Python SDK for retrieving image from NAO camera
 
-Currently, there are two files that we need to look at.
+2. Clarifai python API for food recognition based on image
 
-### Save image from NAO to local computer
-- videoInput_getImage.py: This file is to get the image from the Nao camrea, then save the image to the local computer.
-- bot_final/final2.py: Mainly start from line 155, the url link of the imgur image will be thrown to Clarfifai API. 
+3. Food calorie predictor by using web crawler based on food recognition
 
-### Next, we will get the list which shows the ingredients from the food image.
-- get_food_components.py: Call the main function to see an example of how local and web-based images can be looked at through the lens of Clarifai
-
-### Next, we calculate calorie of each ingredient with the help of web crawler.
+4. AI training modeling for face prediction based on image
+```
+* analyzer.py
+```
+Main Program for reporting time stamps during HRI interaction and save them
