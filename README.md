@@ -9,7 +9,7 @@ Here, we will focus on going through the navigation of the operation. This is th
 
 Also, we feel really thanksful for those who provide third-party open sources so that we can refer to some client APIs or SDKs for better completing the functional system in our project. We will mention and credit them in the process of the description.
 
-Last but not least, we have already ensured the privacy of our testing objects. Hence, all received data does not indicate any personal infomation.   
+Last but not least, we have already ensured the privacy of our testing objects. Hence, all received data is guaranteed for not indicating any personal infomation.   
 
 ## Outline
 * An Overview of Program Structure in Github
