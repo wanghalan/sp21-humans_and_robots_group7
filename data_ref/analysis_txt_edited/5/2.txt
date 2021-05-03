@@ -1,0 +1,21 @@
+20210502_111534: interaction begins !!
+20210502_111545: human prepares to show nao robot food.
+20210502_111606: human is now showing nao robot the food.
+20210502_111606: nao robot starts to scan food.
+20210502_111622:  nao finishs scanning and then starts analyzing.
+20210502_111624: nao finish analysis and tell the human about the calorie density and name of food.
+20210502_111642: human thanks nao robot.
+20210502_111644: nao robot gets the reply from human. satisfied.
+20210502_111659: nao robot invites human to hear its nutrient suggestion. 
+20210502_111709: nao robot gets the reply from human. the human has an interest.
+20210502_111720: human prepares to show nao robot his face.
+20210502_111729: human is now showing nao robot his face.
+20210502_111729: nao robot starts to scan human's face.
+20210502_111745:  nao finishs scanning and then starts analyzing.
+20210502_111753: nao finish analysis and tell the human face recognition result.
+20210502_111801: nao robot starts to give suggestion.
+20210502_111817: human gives feedback after hearing the suggestion.
+
+Sex: Male
+Age: 20
+Emotion: Fear

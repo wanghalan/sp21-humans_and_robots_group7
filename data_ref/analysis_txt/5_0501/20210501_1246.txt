@@ -1,0 +1,8 @@
+20210501_124709: interaction begins !!
+20210501_124719: human prepares to show nao robot food.
+20210501_124730: human keeps holding food 
+20210501_124745: human put down food and nao starts to analyze
+20210501_124751: nao finish analysis and tell the human about the calorie density and name of food.
+20210501_124759: human thanks nao robot.
+20210501_124808: nao robot gets the reply from human. satisfied.
+20210501_124810: nao robots thanks human and the interaction ends.

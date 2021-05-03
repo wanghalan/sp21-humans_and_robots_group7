@@ -1,0 +1,12 @@
+20210501_153736: interaction begins !!
+20210501_153757: interaction begins !!
+20210501_153808: human prepares to show nao robot food.
+20210501_153819: human is now showing nao robot the food.
+20210501_153819: nao robot starts to scan food.
+20210501_153834:  nao finishs scanning and then starts analyzing.
+20210501_153836: nao finish analysis and tell the human about the calorie density and name of food.
+20210501_153854: human thanks nao robot.
+20210501_153855: nao robot gets the reply from human. not satisfied.
+20210501_153909: nao robot invites human to hear its nutrient suggestion. 
+20210501_153919: nao robot gets the reply from human. the human has no interest.
+
