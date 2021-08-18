@@ -1,4 +1,5 @@
-# [Final Writeup](https://www.overleaf.com/read/dqqpxrqkjwkc)
+- # [Final Writeup](https://www.overleaf.com/read/dqqpxrqkjwkc)
+- # [Final Presentation](https://docs.google.com/presentation/d/11qCXQ9xZ5B2_JztuQEZxKpngwWVv71pYhMxFRfCQqWU/edit?usp=sharing)
 
 ## Declaration
 Group 7
