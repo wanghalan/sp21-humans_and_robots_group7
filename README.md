@@ -7,14 +7,12 @@ Team Members:
 - Ma, Jiachen (jm7gz)
 - Wang Alan (ahw9f)
 
-Our project is about the construction of food serving robot, and more details related to the motivation, experimental design and analysis method could be found in our report. 
+Our project is about the design and implementation of a food serving robot. Details are in the report above.
 
-Here, we will focus on going through the navigation of the operation. This is the final version for the design of our robotic system based on the NAO robot. 
+In this markdwon file, we focus on going through the navigation of the repository. This is the final version for the design of our robotic system based on the [NAO robot](https://robots.ieee.org/robots/nao/). 
 
+Also, we feel really thankful for those who provide third-party open sources so that we can refer to some client APIs or SDKs for better completing the functional system in our project. We will mention and credit them in the process of the description.
 
-Also, we feel really thanksful for those who provide third-party open sources so that we can refer to some client APIs or SDKs for better completing the functional system in our project. We will mention and credit them in the process of the description.
-
-Last but not least, we have already ensured the privacy of our testing subjects. Hence, all received data is guaranteed for not indicating any personal infomation.   
 
 ## Outline
 * An Overview of Program Structure in Github
