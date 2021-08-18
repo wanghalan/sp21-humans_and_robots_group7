@@ -1,6 +1,11 @@
+# [Final Writeup](https://www.overleaf.com/read/dqqpxrqkjwkc)
+
 ## Declaration
 Group 7
-Team Members: Chang Feng-Yi (fc4wa), Ma, Jiachen (jm7gz), Wang Alan (ahw9f)
+Team Members:
+- Chang Feng-Yi (fc4wa)
+- Ma, Jiachen (jm7gz)
+- Wang Alan (ahw9f)
 
 Our project is about the construction of food serving robot, and more details related to the motivation, experimental design and analysis method could be found in our report. 
 
